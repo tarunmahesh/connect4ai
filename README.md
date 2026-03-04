@@ -22,7 +22,7 @@ cd connect4ai
 2. Run the game:
 
 ```bash
-python connect4AI.py
+python connect4-ai.py
 ```
 
 ## How to Play
