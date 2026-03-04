@@ -22,7 +22,8 @@ cd connect4-ai
 2. Run the game:
 
 ```bash
-python connect4.py```
+python connect4.py
+```
 
 ## How to Play
 
@@ -64,7 +65,8 @@ Human plays column 5
 AI plays column 5
 Human plays column 6
 AI plays column 6
-Human plays column 6 → Wins!```
+Human plays column 6 → Wins!
+```
 
 ## AI vs AI mode
 Choose option 2 to watch two AI agents play against each other, useful for testing and observing AI strategy.
