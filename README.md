@@ -16,13 +16,13 @@ A Python implementation of Connect 4 with two game modes: Human vs AI and AI vs 
 
 ```bash
 git clone https://github.com/yourusername/connect4ai.git
-cd connect4-ai
+cd connect4ai
 ```
 
 2. Run the game:
 
 ```bash
-python connect4.py
+python connect4AI.py
 ```
 
 ## How to Play
