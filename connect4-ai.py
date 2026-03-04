@@ -151,6 +151,9 @@ def human_vs_ai(play_first=True):
     while True:
         # Human goes first if play_first=True
         if play_first:
+            if len(board.moves) == ROWS * COLS:
+                print("Draw!")
+                break
             # Human move
             while True:
                 try:
@@ -168,10 +171,6 @@ def human_vs_ai(play_first=True):
                 print("You win!")
                 break
 
-            if len(board.moves) == ROWS * COLS:
-                print("Draw!")
-                break
-
             # AI move
             col = ai_move(board)
             print(f"AI plays column {col+1}")
@@ -182,6 +181,9 @@ def human_vs_ai(play_first=True):
                 print("AI wins!")
                 break
         else:
+            if len(board.moves) == ROWS * COLS:
+                print("Draw!")
+                break
             # AI goes first
             col = ai_move(board)
             print(f"AI plays column {col+1}")
@@ -192,9 +194,7 @@ def human_vs_ai(play_first=True):
                 print("AI wins!")
                 break
 
-            if len(board.moves) == ROWS * COLS:
-                print("Draw!")
-                break
+            
 
             # Human move
             while True:
@@ -236,7 +236,7 @@ def ai_vs_ai():
 if __name__ == "__main__":
     print("1: Human vs AI")
     print("2: AI vs AI")
-
+    
     while True:
       mode = input("Choose: ")
       if mode == "1":
@@ -250,7 +250,7 @@ if __name__ == "__main__":
             break
         print("\n")
         break
-
+          
       if mode == "2":
           ai_vs_ai()
           break
