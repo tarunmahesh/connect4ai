@@ -16,7 +16,8 @@ A Python implementation of Connect 4 with two game modes: Human vs AI and AI vs 
 
 ```bash
 git clone https://github.com/yourusername/connect4-ai.git
-cd connect4-ai```
+cd connect4-ai
+```
 
 2. Run the game:
 
